@@ -1,0 +1,12 @@
+`define WAY_0 1'b0
+`define WAY_1 1'b1
+`define CACHE_MISS 1'b0
+`define CACHE_HIT 1'b1
+`define FULL_BLOCK 1'b0
+`define REMAIN_BLOCK 1'b1 
+`define IDLE 3'b000
+`define COMPARE_TAG 3'b001
+`define WRITE_BACK 3'b010
+`define WRITE_BACK_DELAY 3'b011
+`define ALLOCATE 3'b100 
+`define ALLOCATE_DELAY 3'b101
